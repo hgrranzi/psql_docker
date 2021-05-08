@@ -10,6 +10,4 @@ COPY srcs/flyway.conf /flyway-7.8.2/conf
 
 COPY srcs/init.sql /
 
-COPY srcs/demo.sql /
-
 CMD bash start.sh
